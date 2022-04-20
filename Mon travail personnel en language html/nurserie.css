@@ -1,0 +1,90 @@
+table 
+{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+
+  th 
+  {
+    background-color: #4287f5;
+    color: white;
+  }
+
+th, td 
+{
+    width: 150px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  h2 
+  {
+    color: #4287f5;
+  }
+
+  .Center
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .button
+  {
+    background-color: #4287f5;
+    width: 250px;
+  }
+
+
+  .button
+  {
+    font-family: impact, arial, sans-serif;
+  }
+
+  #reset
+  {
+      font-size: 0.7em;
+      width: 70px;
+      height: 16px;
+  }
+
+  #submit
+  {
+      font-size: 0.6em;
+      width: 50px;
+      height: 16px;
+  }
+
+  .button
+  {
+     text-align: left;
+  }
+
+.button
+{
+ border-style:ridge;
+ border-color: black;
+ border-width: 5px;
+ border-radius: 10px;
+}
+
+.password
+{
+font-size: 0.7em;
+}
+
+.mail
+{
+  font-size: small;
+}
+
+#moove
+{
+opacity: 0.80;
+width: auto;
+}
+
+.mdp
+{
+width: 150px;
+opacity: 0.80;
+}

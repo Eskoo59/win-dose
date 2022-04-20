@@ -1,0 +1,71 @@
+.avat
+{
+    width: 80px;
+    height: auto;
+    
+}
+
+#css
+{
+    width: 60px;
+    height: 80px;
+}
+
+#rectangle {
+    width  : 100%;
+    /* height : 100px; */
+    background : rgb(102, 182, 222);
+    display: flex;
+    /* justify-content: ; */
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+
+
+body{
+    margin: 0;
+}
+
+.div{ 
+display: flex;
+justify-content: space-between;
+background-image: url(./espace.jpg);
+}
+
+div section{
+    width: 30%;
+}
+
+#sec1{
+background-color: beige;
+border-radius: 5%;
+border: solid;
+font-size: 0.9em;
+opacity: 90%;
+}
+
+#sec2
+{
+   background-color: beige;
+   border-radius: 5%;
+   border: solid;
+   font-size: 0.9em; 
+   opacity: 90%;
+}
+
+
+#sec3
+{
+    background-color: beige;
+    border-radius: 5%;
+    border: solid;
+    font-size: 0.9em;
+    opacity: 90%;
+}
+
+.police
+{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="exercice2.css" >
+    <title>Hotel.onion</title>
+</head>
+<body>
+ 
+    
+    <h1 class="titre">Votre réservation d'hotel</h1>
+
+
+    <h3 class="titre">*Champs obligatoires</h3>
+
+
+    
+
+
+    <form method="get" >
+
+       <label for="nom" class="all">Votre nom*   </label>
+       <br/><input type="text" name="nom" id="nom" required placeholder="Votre nom">
+
+     <br/> <br/> 
+
+
+       <br/><label for="prénom" class="all"> Votre prénom*</label>
+      <br/> <input type="text" name="prénom" id="prénom" required placeholder="Prénom">
+
+       
+      <br/> <br/> <br/><label for="num" class="all">Votre numéro de téléphone* </label>
+      <br> <input type="tel" name="num" id="num" required placeholder="Numéro de telephone">
+
+
+
+      <br/> <br/> <br/> <label for="mail" class="all">Votre adresse mail*</label>
+      <br/>  <input type="email" name="mail" id="mail" required placeholder="Adresse mail">
+
+      <br/>   <p class="all">Selectionner la ville:</p>
+        <select>
+                 <option value="lille">Lille</option>
+                 <option value="paris">Paris</option>
+                <option value="Bordeaux">Bordeaux</option>
+                <option value="Marseille">Marseille</option>
+                <option value="Nantes">Nantes</option>
+                <option value="Lyon">Lyon</option>
+                <option value="La rochelle">La rochelle</option>
+                <option value="Poitiers">Poitiers</option>
+                <option value="Toulouse">Toulouse</option> 
+
+             </select>
+
+        
+        <br/> <br/> <label for="date" class="all">Date d'arrivée</label>
+        <br/>  <input type="date" name="date" id="date">
+
+
+        <br/> <br/> <label for="nombre" class="all">Nombre de personne*</label>
+        <br/> <input type="number" name="nombre" id="nombre" required min="0" >
+
+
+        <br/>  
+        <p class="all">Vos options</p>
+         <label for="clim">Climatisation</label>  <input type="checkbox" value="0" name="clim" id="clim">
+          
+
+         <label for="bar">Bar</label> <input type="checkbox" value="1"   name="bar" id="bar">
+          
+
+         <label for="jacuz">Jacuzzi</label>  <input type="checkbox" value="2" name="jacuz" id="jacuz">
+
+         <br/> <br/>
+         <textarea id="bouton">Ajouter un commentaire</textarea>
+         <br/>
+
+         <p class="all">Acceptation des Conditions Générales de Vente (CGV)</p>
+
+         <label for="accpt">J'accepte</label> <input type="radio "value="accpt" name="accpt" id="accpt">
+
+         <label for="refu">Je refuse</label> <input type="radio" value="refu" name="accpt" id="refu" >
+       
+          <br/> <br/> 
+         
+         <button type="submit" name="submit">Envoyer ma demande</button>
+       
+
+    </form>
+
+    <footer>
+
+     
+
+    <div id="bitc"> <p>Best hotel in the world <br/>Only bitcoin accepted </p> </div>
+
+     
+        <p id="onion">Since 2005 <br/>All right reserved<br/></p>
+
+
+
+
+
+
+
+
+        
+    </footer>
+
+</body>
+</html>

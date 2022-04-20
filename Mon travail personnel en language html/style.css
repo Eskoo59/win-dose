@@ -1,0 +1,58 @@
+/* #introduction
+{
+	  color: blue;
+}	  
+
+.paragraphe
+{
+	color: red;
+}
+
+p
+{
+	font-size: 1.07em;
+}
+
+.impact
+{
+	font-family: impact;
+}
+
+ol 
+{
+	font-weight: bold;
+}
+
+h2 + p
+{
+	text-decoration: underline;
+}
+
+
+
+
+{
+	text-align: left;	/* Pour aligner un texte sois a gauche sois a droite ou justify pour qu'il aille bien de gauche a droite */
+}
+
+
+
+
+{
+	/* text-align: justify;
+}
+
+
+
+
+
+{
+	float: left;     /* pour qu'un texte se positionne mieux avec une photo d'un certain coté et l'entoure de haut en bas */
+}
+
+
+
+{
+	
+	/* clear: both;     pour annuler le float de droite ou gauche d'un paragraphe en dessous du concerné pour que le paragraphe reprenne en dessous de la photo et n'entoure plus la photo de haut en bas */
+} */ */
